@@ -424,16 +424,20 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
+<img width="569" height="96" alt="image" src="https://github.com/user-attachments/assets/996de198-c11a-4d5d-987a-32867b9bb077" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
+<img width="697" height="94" alt="image" src="https://github.com/user-attachments/assets/58d6478b-a458-4095-937e-3abdf14cc50d" />
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+
+<img width="531" height="817" alt="image" src="https://github.com/user-attachments/assets/2aa2a8f7-1b11-40e4-aa38-83e85683c300" />
 
 
 mkdir backupdir
@@ -445,17 +449,27 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
+<img width="1128" height="1068" alt="image" src="https://github.com/user-attachments/assets/6a5f910d-5584-4f72-aef0-78f164d31734" />
+
 
 tar -xvf backup.tar
 ## OUTPUT
+
+<img width="605" height="1049" alt="image" src="https://github.com/user-attachments/assets/3b0c6062-fa12-4d87-b98f-93a2c3a24129" />
+
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
+<img width="499" height="43" alt="image" src="https://github.com/user-attachments/assets/5ddea9a2-17b4-4ea9-bb03-6fd4b8c398cf" />
+
  
 gunzip backup.tar.gz
 ## OUTPUT
+
+<img width="1822" height="41" alt="image" src="https://github.com/user-attachments/assets/5068414e-2df3-4477-a5cd-458b91f1eb46" />
 
  
 # Shell Script
@@ -478,6 +492,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+
+<img width="646" height="168" alt="image" src="https://github.com/user-attachments/assets/ab7f5d76-0ed6-44bf-8fda-ebd4eeedb8b1" />
 
 
 cat < scriptest.sh 
@@ -517,23 +533,37 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+
+<img width="631" height="313" alt="image" src="https://github.com/user-attachments/assets/e6bba955-a996-4d69-8bb8-ce546bffb743" />
+
  
 ls file1
 ## OUTPUT
 
+<img width="515" height="44" alt="image" src="https://github.com/user-attachments/assets/11819426-5b08-469d-ae9a-cecf33e234b1" />
+
+
 echo $?
 ## OUTPUT 
+
+<img width="501" height="44" alt="image" src="https://github.com/user-attachments/assets/8516f581-062d-4a8e-969c-af90aa826347" />
+
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
+
+<img width="501" height="44" alt="image" src="https://github.com/user-attachments/assets/9fb517af-df32-4f7f-8703-2d76f9424405" />
+
  
 abcd
  
 echo $?
  ## OUTPUT
 
+<img width="504" height="185" alt="image" src="https://github.com/user-attachments/assets/e6e5a346-18b4-4a75-a43a-7bb7e0897599" />
 
  
 # mis-using string comparisons
@@ -566,12 +596,16 @@ fi
 ```
 ##OUTPUT
 
+<img width="569" height="401" alt="image" src="https://github.com/user-attachments/assets/aac11d3e-c4c3-4c4a-8551-24fe114e0cb2" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+
+<img width="621" height="99" alt="image" src="https://github.com/user-attachments/assets/9984f688-bcd2-4521-9868-74509137ebde" />
+
 
 
 # check file ownership

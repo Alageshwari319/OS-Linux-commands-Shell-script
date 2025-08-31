@@ -277,78 +277,97 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
+<img width="540" height="40" alt="image" src="https://github.com/user-attachments/assets/15cdbfdf-9e3e-468b-b5ab-694e22a2a854" />
 
 
 sed -n -e '$p' file23
 ## OUTPUT
 
+<img width="533" height="39" alt="image" src="https://github.com/user-attachments/assets/6503ef93-6d40-4ce3-9b55-2a292cfa7105" />
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="590" height="187" alt="image" src="https://github.com/user-attachments/assets/c2eae6a6-de73-437b-890b-ea4a0a521bd8" />
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="599" height="183" alt="image" src="https://github.com/user-attachments/assets/2fc9e969-4911-47af-81b9-51dbfb9b4f70" />
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
+<img width="619" height="186" alt="image" src="https://github.com/user-attachments/assets/deddaad9-c7b9-4857-b74e-b793095f8c9f" />
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
+<img width="556" height="113" alt="image" src="https://github.com/user-attachments/assets/99e93fc0-bb29-4c50-9b28-4ea82d735e4b" />
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
+<img width="591" height="81" alt="image" src="https://github.com/user-attachments/assets/98eb9925-2e62-4c87-9fcb-99b7f37185b8" />
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
 
+<img width="619" height="60" alt="image" src="https://github.com/user-attachments/assets/68c47777-00e1-40b6-a607-1cd15eb32767" />
 
 
 seq 10 
 ## OUTPUT
 
+<img width="402" height="200" alt="image" src="https://github.com/user-attachments/assets/909cfc42-ede2-411d-92a2-29e361768885" />
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="542" height="82" alt="image" src="https://github.com/user-attachments/assets/e859e0a4-4010-4561-9a5c-6a1a6089c4e9" />
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+<img width="544" height="76" alt="image" src="https://github.com/user-attachments/assets/4028d8aa-8a2f-49ab-abfe-e3199b99664b" />
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
 
+<img width="544" height="98" alt="image" src="https://github.com/user-attachments/assets/264d0e37-23fb-45d1-a3b0-219b36076cfa" />
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
 
+<img width="545" height="80" alt="image" src="https://github.com/user-attachments/assets/2549cfd8-5ef7-4c0a-a4ec-a1f262ea3a19" />
+
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+
+<img width="571" height="80" alt="image" src="https://github.com/user-attachments/assets/1f2e25a0-439d-4074-9fc6-332f42465673" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
 
+<img width="608" height="80" alt="image" src="https://github.com/user-attachments/assets/c78e9d3b-d9c1-4dfa-a3e2-48d9ac256137" />
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
+<img width="604" height="77" alt="image" src="https://github.com/user-attachments/assets/fd5ff0c7-adc1-4aa1-8854-af8abcda2ad5" />
 
 
 #Sorting File content
@@ -363,6 +382,8 @@ cat > file21
 sort file21
 ## OUTPUT
 
+<img width="445" height="116" alt="image" src="https://github.com/user-attachments/assets/28dbe2e7-d0cf-47ad-9fb7-a7e236c18fd9" />
+
 
 cat > file22
 ```
@@ -376,12 +397,16 @@ cat > file22
 uniq file22
 ## OUTPUT
 
+<img width="445" height="115" alt="image" src="https://github.com/user-attachments/assets/a372ed7a-b34e-4600-a763-3d02347fd0c7" />
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+
+<img width="656" height="184" alt="image" src="https://github.com/user-attachments/assets/ce9d3038-be10-4b42-a3c3-699a9dda0597" />
+
 
 cat < urllist.txt
 ```
